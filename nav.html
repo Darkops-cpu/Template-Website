@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Floating Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+
+        .navbar {
+            display: flex;
+            background: white;
+            padding: 15px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+
+        .navbar:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            HTML Code Snippet
+        </p>
+        <code>
+            &lt;div class="navbar"&gt;
+                &lt;a href="#"&gt;Home&lt;/a&gt;
+                &lt;a href="#"&gt;About&lt;/a&gt;
+                &lt;a href="#"&gt;Services&lt;/a&gt;
+                &lt;a href="#"&gt;Contact&lt;/a&gt;
+            &lt;/div&gt;        
+        </code>
+    </pre>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            CSS Code Snippet
+        </p>
+        <code>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f5f5f5;
+                font-family: Arial, sans-serif;
+            }
+    
+            .navbar {
+                display: flex;
+                background: white;
+                padding: 15px 30px;
+                border-radius: 15px;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .navbar:hover {
+                transform: translateY(-5px) scale(1.03);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            }
+    
+            .navbar a {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+                padding: 10px 20px;
+                transition: 0.3s;
+            }
+    
+            .navbar a:hover {
+                color: #ffcc00;
+            }
+        </code>
+    </pre>
+
+</body>
+</html>

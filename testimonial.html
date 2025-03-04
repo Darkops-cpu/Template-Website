@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Testimonial Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            flex-direction: column;
+        }
+
+        .testimonial {
+            width: 320px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .testimonial:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .testimonial img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="testimonial">
+        <img src="https://via.placeholder.com/80" alt="User">
+        <h3>Jane Doe</h3>
+        <p>"This is the best service ever! Highly recommended!"</p>
+    </div>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            HTML Code Snippet
+        </p>
+        <code>
+            &lt;div class="testimonial"&gt;
+                &lt;img src="https://via.placeholder.com/80" alt="User"&gt;
+                &lt;h3&gt;Jane Doe&lt;/h3&gt;
+                 &lt;p&gt;"This is the best service ever! Highly recommended!"&lt;/p&gt;
+            &lt;/div&gt;        
+        </code>
+    </pre>
+
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            CSS Code Snippet
+        </p>
+        <code>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f5f5f5;
+                flex-direction: column;
+            }
+    
+            .testimonial {
+                width: 320px;
+                padding: 20px;
+                background: white;
+                border-radius: 10px;
+                text-align: center;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .testimonial:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            }
+    
+            .testimonial img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+    
+            .testimonial p {
+                font-style: italic;
+                color: gray;
+            }
+        </code>
+    </pre>
+
+</body>
+</html>

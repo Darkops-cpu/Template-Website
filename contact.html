@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Contact Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f5f5f5;
+        }
+
+        .contact-form {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .contact-form:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background: #ffcc00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Name" style="width: 200px;">
+        <input type="email" placeholder="Email" style="width: 200px;">
+        <textarea placeholder="Message" style="max-width: 200px;"></textarea>
+        <button>Send</button>
+        <p>Button can be merged with a custom style</p>
+    </div>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            HTML Code Snippet
+        </p>
+        <code>
+            &lt;div class="contact-form"&gt;
+                &lt;h2&gt;Contact Us&lt;/h2&gt;
+                &lt;input type="text" placeholder="Name" style="width: 200px;"&gt;
+                &lt;input type="email" placeholder="Email" style="width: 200px;"&gt;
+                &lt;textarea placeholder="Message" style="max-width: 200px;"&gt;&lt;/textarea&gt;
+                &lt;button&gt;Send&lt;/button&gt;
+                &lt;p&gt;Button can be merged with a custom style&lt;/p&gt;
+            &lt;/div&gt;
+
+
+        </code>
+    </pre>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            CSS Code Snippet
+        </p>
+        <code>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: #f5f5f5;
+            }
+    
+            .contact-form {
+                width: 300px;
+                padding: 20px;
+                background: white;
+                border-radius: 10px;
+                text-align: center;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+    
+            .contact-form:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            }
+    
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 8px 0;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+    
+            .contact-form button {
+                width: 100%;
+                padding: 10px;
+                background: #ffcc00;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </code>
+    </pre>
+
+</body>
+</html>

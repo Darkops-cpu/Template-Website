@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Button</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 1);
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+    .btn:hover{
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+
+    }
+    .btn:active{
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.1);
+        background-color: azure;
+        color: black;
+    }
+</style>
+<body>
+    <div class="container">
+        <button class="btn">Click Me</button>
+    </div>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            HTML Code Snippet
+        </p>
+        <code>
+            &lt;div class="container"&gt;
+                &lt;button class="btn"&gt;Click Me&lt;/button&gt;
+            &lt;/div&gt;
+
+        </code>
+    </pre>
+
+    <pre style="color: whitesmoke; background-color: black;margin: 10px; padding: 20px; border-radius: 25px; cursor: crosshair; width: 800px; text-align: left; justify-content: center;">
+        <p style="font-weight: bolder; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;display: flex;">
+            CSS Code Snippet
+        </p>
+        <code>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f5f5f5;
+                font-family: Arial, sans-serif;
+                flex-direction: column;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .btn{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 40px;
+                padding-right: 40px;
+                border-radius: 5px;
+                border: none;
+                background-color: blueviolet;
+                color: white;
+                font-weight: bold;
+                font-size: medium;
+                box-shadow: 0px 5px 50px rgba(0, 0, 0, 1);
+                transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+            }
+            .btn:hover{
+                box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
+        
+            }
+            .btn:active{
+                box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.1);
+                background-color: azure;
+                color: black;
+            }
+        </code>
+    </pre>
+</body>
+</html>
